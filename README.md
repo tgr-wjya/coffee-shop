@@ -25,6 +25,15 @@ starting with postgresql.
 | `PATCH  /orders/:id/status` | update status |
 | `GET  /orders?status=preparing` | filter orders by status |
 
+## what i learned
+
+- i should've started with postgresql from the start, its more battle tested than `bun:sqlite`.
+- i have nothing against `bun:sqlite`, i just think starting out with `postgresql` is going to paid off more as a backend.
+- setting up your `db` in [docker-compose](./docker-compose.yml) isn't as hard as i thought it'd be.
+- you should always do `bunx drizzle-kit generate` first before doing migration.
+- and yes, `drizzle-kit generate` is allowed even when the `db` is down. just be careful of waking up your `db` first before migrating.
+- besides that, generating before migrating is a good idea to validate your schema change for others.
+
 ## stack
 
 - bun + hono + drizzle orm + `bun:sqlite`
