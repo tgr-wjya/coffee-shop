@@ -2,7 +2,7 @@
 
 ## Overview
 
-Build a small API for a coffee shop using Bun, Hono, Drizzle ORM, and SQLite.
+Build a small API for a coffee shop using Bun, Hono, Drizzle ORM, and PostgreSQL.
 
 The system should let the shop:
 
@@ -18,7 +18,7 @@ This is intentionally small, but it should model a real-world pattern instead of
 - Bun
 - Hono
 - Drizzle ORM
-- `bun:sqlite`
+- PostgreSQL
 
 ## Domain
 
