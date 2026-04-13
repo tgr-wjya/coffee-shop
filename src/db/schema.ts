@@ -51,3 +51,5 @@ export const order_itemsTable = pgTable("order_items", {
 		mode: "number",
 	}).notNull(),
 });
+
+export type CreateProductInput = typeof productTable.$inferInsert;
