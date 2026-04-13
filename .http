@@ -2,3 +2,6 @@
 
 ### GET: List All Products
 GET {{baseUrl}}/products
+
+### TESTING WILDCARDS
+GET {{baseUrl}}/whatever

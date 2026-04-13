@@ -19,3 +19,15 @@ export const CreateProductSchema = z.object({
 	category: z.enum(["food", "drink"]),
 	available: z.boolean(),
 });
+
+export const availableEndpointsArray = [
+	"GET /products",
+	"POST /products",
+	"PATCH /products/:id",
+	"POST /orders",
+	"GET /orders/:id",
+	"PATCH /orders/:id/status",
+	"GET /orders",
+];
+
+export const docsUrl = "https://github.com/tgr-wjya/coffee-shop";
