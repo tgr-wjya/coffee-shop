@@ -1,6 +1,6 @@
 # coffee-shop
 
-## 11 april 2026
+## 13 april 2026
 
 > trying to learn drizzle orm here.
 
@@ -33,6 +33,8 @@ starting with postgresql.
 - you should always do `bunx drizzle-kit generate` first before doing migration.
 - and yes, `drizzle-kit generate` is allowed even when the `db` is down. just be careful of waking up your `db` first before migrating.
 - besides that, generating before migrating is a good idea to validate your schema change for others.
+- use `zod` for your `routes/handler` validation, use `typescript` for your service class.
+- i'm embarrasingly late to this but `bun tsc --noEmit` validate types and catch errors
 
 ## stack
 
