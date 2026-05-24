@@ -1,0 +1,19 @@
+{
+  "name": "coffee-shop-api",
+  "version": "1.0.0",
+  "description": "Coffee shop REST API with Bun, Hono, PostgreSQL",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "postgres": "^3.4.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "@biomejs/biome": "^1.8.0"
+  }
+}
